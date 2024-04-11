@@ -1,0 +1,22 @@
+/* 
+.ani_1 {
+    animation: ani_1 3s linear infinite;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    
+}
+@keyframes ani_1 {
+    0% {
+        background: blue;
+        width: 0px;
+    }
+    100% {
+        background: black;
+        width: 100px;
+    }
+
+} */
+
+
+
