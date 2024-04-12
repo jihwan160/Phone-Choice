@@ -1,22 +1,129 @@
-/* 
-.ani_1 {
-    animation: ani_1 3s linear infinite;
-    width: 100px;
-    height: 30px;
-    position: relative;
-    
+@charset "utf-8";
+
+.dpdlcl2 {
+    margin: 0;
 }
-@keyframes ani_1 {
-    0% {
-        background: blue;
-        width: 0px;
-    }
-    100% {
-        background: black;
-        width: 100px;
-    }
+*{
+    box-sizing: border-box;
+}
+body {
+    background: #f7f7f7;
+    margin: 0;
+}
+.cover {
+    width: 80%;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 40px;
+    margin: 0 auto;
+}
+.fhrhdlalwl {
+    display: flex;
+    align-items: center;
+}
+.fhrhdlalwl>h2 {
+    /* margin-left: 20px; */
+    font-size: 24px;
+    color: #000;
+}
+.phoneList {
+    position: relative;
+}
+.phoneList img {
+    position: absolute;
+    /* width: 100%; */
+    left: 50%;
+    transform: translateX(-50%);
+    /* height: 100%; */
+    opacity: 0;
+    /* transition: all 1s ease; */
+}
+.phoneList img:nth-child(1) {
+    opacity: 1;
+}
+.xkdlxmf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.subTitle>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #262626;
+}
+.subTitle>div>p {
+    margin: 0;
+}
+.desc {
+    background: #fff;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+}
+.desc_cover {
+    background: #fff;
+}
+.color {
+    background: #f7f7f7;
+    padding: 20px;
+}
+.colorTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-} */
-
-
-
+#changeName {
+    margin: 0;
+    margin-left: 20px;
+}
+.colorInput input {
+    display: none;
+}
+label {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+input[type="radio"]:checked + label {
+    border: 1px solid blue;
+}
+.colorInput {
+    display: flex;
+}
+#car1+label {
+    background: #7E7871;
+}
+#car2+label {
+    background: #EDDFB0;
+}
+#car3+label {
+    background: #3B344D;
+}
+#car4+label {
+    background: #363432;
+}
+.colorTitle h2 {
+    color: #000;
+    font-size: 16px;
+}
+.MoreBtn {
+    background: #146af0; 
+    color: #fff; 
+    padding : 7px 10px 5px 10px; 
+    border: none; 
+    border-radius: 100px; 
+    cursor: pointer;
+    font-size : 14px;
+}
+.MoreBtn:hover {
+    color: #146af0;
+    background: #fff;
+}
