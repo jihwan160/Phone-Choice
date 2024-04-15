@@ -11,12 +11,11 @@ body {
     margin: 0;
 }
 .cover {
-    width: 80%;
-    height: 100vh;
-    
+    width: 100%;
+    /* height: 100vh; */
     display: grid;
-    grid-template-columns: 6fr 4fr;
-    gap: 40px;
+    grid-template-columns: 4fr 3fr 3fr;
+    /* gap: 40px; */
     margin: 0 auto;
 }
 .fhrhdlalwl {
@@ -33,7 +32,7 @@ body {
 }
 .phoneList img {
     position: absolute;
-    /* width: 100%; */
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     /* height: 100%; */
@@ -60,6 +59,7 @@ body {
     margin: 0;
 }
 .desc {
+    height: auto;
     background: #fff;
     padding: 40px;
     margin: 40px;
@@ -85,7 +85,10 @@ body {
 .colorInput input {
     display: none;
 }
-label {
+.color {
+    margin-bottom: 20px;
+}
+.color label {
     width: 25px;
     height: 25px;
     display: inline-block;
@@ -126,4 +129,106 @@ input[type="radio"]:checked + label {
 .MoreBtn:hover {
     color: #146af0;
     background: #fff;
+}
+
+
+
+
+.zjqj {
+    width: 100%;
+    /* height: 650px; */
+    background: #f7f7f7;
+    /* margin: 0 auto; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    padding: 20px;
+    /* gap: 20px; */
+
+}
+.zjqj .xkdlxmf {
+    margin: 0;
+    font-size: 20px;
+}
+.zjqj .subxkdlxmf {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.zjqj .xoqinput {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.zjqj .xoqinput>div>label {
+    width: 100%;
+    display: block;
+    height: 40px;
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #a9a9a9;
+    font-size: 14px;
+}
+.zjqj .xoqinput>div:nth-child(1)>label {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.zjqj .xoqinput>div:last-child>label {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.zjqj input[type="radio"] {
+    display: none;
+}
+.zjqj input[type="radio"]:checked + label {
+    color: blue;
+    border-color: blue;
+}
+.zjqj .Grid3f {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.zjqj .Grid4f {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.zjqj .Grid5f {
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 3fr 0.5fr 3fr 0.5fr 3fr;
+    gap: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.zjqj select {
+    border: 1px solid #dedede;
+    height: 40px;
+    outline: none;
+}
+.zjqj .xoqemf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zjqj input[type="text"] {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#btn {
+    margin-top: 40px;
+}
+#btn button {
+    width: 100%;
+    height: 60px;
+    background: #78b7ff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
 }
