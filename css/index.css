@@ -12,18 +12,14 @@ body {
 }
 .cover {
     width: 100%;
-    /* height: 100vh; */
     display: grid;
     grid-template-columns: 4fr 3fr 3fr;
-    /* gap: 40px; */
-    margin: 0 auto;
 }
 .fhrhdlalwl {
     display: flex;
     align-items: center;
 }
 .fhrhdlalwl>h2 {
-    /* margin-left: 20px; */
     font-size: 24px;
     color: #000;
 }
@@ -35,9 +31,7 @@ body {
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
-    /* height: 100%; */
     opacity: 0;
-    /* transition: all 1s ease; */
 }
 .phoneList img:nth-child(1) {
     opacity: 1;
@@ -136,13 +130,8 @@ input[type="radio"]:checked + label {
 
 .zjqj {
     width: 100%;
-    /* height: 650px; */
     background: #f7f7f7;
-    /* margin: 0 auto; */
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     padding: 20px;
-    /* gap: 20px; */
 
 }
 .zjqj .xkdlxmf {
